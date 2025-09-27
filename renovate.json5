@@ -1,0 +1,15 @@
+{
+  customManagers: [
+    {
+      customType: 'regex',
+      managerFilePatterns: [
+        '/.*\\.go/',
+      ],
+      depNameTemplate: 'aquaproj/aqua-proxy',
+      datasourceTemplate: 'github-releases',
+      matchStrings: [
+        '"(?<currentValue>.*)" // renovate: depName=aquaproj/aqua-proxy',
+      ],
+    },
+  ],
+}
