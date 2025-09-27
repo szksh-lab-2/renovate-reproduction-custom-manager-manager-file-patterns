@@ -1,0 +1,1 @@
+# renovate-reproduction-custom-manager-manager-file-patterns
